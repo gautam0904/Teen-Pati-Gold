@@ -1,0 +1,128 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main {
+  margin: 20px 0;
+}
+
+.infoSection,
+.downloadSection,
+.featuresSection,
+.imageSection,
+.infoSectionTwo {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.infoSection:hover,
+.downloadSection:hover,
+.featuresSection:hover,
+.imageSection:hover,
+.infoSectionTwo:hover {
+  transform: scale(1.02);
+}
+
+.downloadButton {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.downloadButton:hover {
+  background-color: #218838;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer {
+  text-align: center;
+  color : white;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.carousel-item {
+  transition: transform 0.8s ease, opacity 0.5s ease; /* Smooth transitions */
+  position: absolute; /* Stack items on top of each other */
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  opacity: 0; /* Start hidden */
+}
+
+.carousel-item.active {
+  opacity: 1; /* Show active item */
+  transform: translateX(0); /* Position active item in the center */
+}
+
+.carousel-item-next {
+  opacity: 1; /* Keep next item visible */
+  transform: translateX(100%); /* Move next item offscreen to the right */
+}
+
+.carousel-item-prev {
+  opacity: 1; /* Keep previous item visible */
+  transform: translateX(-100%); /* Move previous item offscreen to the left */
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 30px; /* Adjusted for better placement */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.6); /* Background for contrast */
+  color: #000000; /* Text color for readability */
+  padding: 15px 20px; /* Comfortable padding */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Centered text */
+  font-family: 'Arial', sans-serif; /* Font */
+  font-size: 18px; /* Increased font size */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4); /* Shadow for the caption */
+}
+
+.carouselSection {
+  background-color: #1c1c1c; /* Dark background for elegance */
+  padding: 40px; /* Increased padding for a spacious look */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for controls */
+  border-radius: 50%; /* Circular buttons */
+  width: 40px; /* Adjusted size */
+  height: 40px; /* Adjusted size */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* Lighter background on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #1c1c1c; /* Match icon background to carousel */
+  border-radius: 50%; /* Circular icons */
+}
