@@ -149,7 +149,7 @@ export default function Home() {
                 src="/asset/image1.jpg"
                 alt="image 1"
                 className="image-fluid m-2 w-100 d-flex align-items-center justify-content-center"
-                width={200} // Specify width for optimization
+                width={150} // Specify width for optimization
                 // Specify height for optimization
               />
             </div>
