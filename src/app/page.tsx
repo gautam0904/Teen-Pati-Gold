@@ -153,7 +153,18 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <p>
+         
+          <div className="row">
+            <div className="col-lg-6 p-2">
+              <Image
+                src="/asset/image2.jpg"
+                alt="image 2"
+                className="image-fluid m-2 w-100"
+                width={300} // Specify width for optimization
+              />
+            </div>
+            <div className="col-lg-6 p-2">
+              <p>
             In Teen Patty, loose and tight refers to the general tendency of
             players to play cards or fold quickly after the first round. There
             is no universally accepted odds or percentage of hands played, but
@@ -166,28 +177,6 @@ export default function Home() {
               Try it now
             </a>
           </p>
-          <div className="row">
-            <div className="col-lg-6 p-2">
-              <Image
-                src="/asset/image2.jpg"
-                alt="image 2"
-                className="image-fluid m-2 w-100"
-                width={300} // Specify width for optimization
-              />
-            </div>
-            <div className="col-lg-6 p-2">
-              <p>
-                Usually a bet or starting price is placed on the table (pot).
-                This can be equal bets on all players or a larger bet from one
-                player (more parts than the rotation). Ante is a mistake bet
-                where each player puts an equal amount of money or chips into
-                the pot before the cards are dealt. It is usually a unit (the
-                value or minimum in play) or a small percentage such as half or
-                a quarter of the minimum bet. The ante that each player pays
-                ensures that the player who folds loses money (albeit slowly) on
-                each turn, thus encouraging each player to reach for a small
-                playing hand rather than an open hand form.
-              </p>
             </div>
           </div>
           <div className="row">
