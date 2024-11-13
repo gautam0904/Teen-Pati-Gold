@@ -125,15 +125,6 @@ export default function Home() {
           <h2>About Teen Patti</h2>
           <div className="row">
             <div className="col-lg-6 p-2">
-              <Image
-                src="/asset/image1.jpg"
-                alt="image 1"
-                className="image-fluid m-2 w-100"
-                width={300} // Specify width for optimization
-                // Specify height for optimization
-              />
-            </div>
-            <div className="col-lg-6 p-2">
               <p>
                 Teen Patti is a popular Indian card game that brings together
                 friends and family for hours of fun and excitement. With
@@ -152,6 +143,15 @@ export default function Home() {
                 </a>
               </p>
             </div>
+            <div className="col-lg-6 p-2">
+              <Image
+                src="/asset/image1.jpg"
+                alt="image 1"
+                className="image-fluid m-2 w-100 d-flex align-items-center justify-content-center"
+                width={300} // Specify width for optimization
+                // Specify height for optimization
+              />
+            </div>
           </div>
          
           <div className="row">
@@ -159,7 +159,7 @@ export default function Home() {
               <Image
                 src="/asset/image2.jpg"
                 alt="image 2"
-                className="image-fluid m-2 w-100"
+                className="image-fluid m-2 w-100 d-flex align-items-center justify-content-center"
                 width={300} // Specify width for optimization
               />
             </div>
@@ -197,9 +197,9 @@ export default function Home() {
             </div>
               <div className="col-lg-6 p-2">
               <Image
-                src="/asset/image3.jpg"
+                src="/asset/image3.jpg "
                 alt="image 3"
-                className="image-fluid"
+                className="image-fluid d-flex align-items-center justify-content-center"
                 width={300} // Specify width for optimization// Specify height for optimization
               />
             </div>
