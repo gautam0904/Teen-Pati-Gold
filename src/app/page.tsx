@@ -1,6 +1,7 @@
 "use client"; // Mark this component as a client component
 
 import { useState, useEffect } from "react";
+import Image from "next/image"; // Import the Image component
 import styles from "./page.module.css"; // Adjust the import based on your structure
 import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
@@ -70,7 +71,6 @@ export default function Home() {
           The ultimate{" "}
           <a
             href="https://www.earntp.com/gold/2z249v?f=w&p=wa&tp=gold1"
-            // className={styles.downloadButton}
           >
             card game
           </a>{" "}
@@ -78,60 +78,22 @@ export default function Home() {
         </p>
       </header>
 
-      {/* <div>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-              Teen Patti Gold
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon" />
-            </button>
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    About Us
-                  </a>
-                </li>
-              </ul>
-
-              <button className="btn btn-success btn-lg" type="submit">
-                Download
-              </button>
-            </div>
-          </div>
-        </nav>
-      </div> */}
-
       <section className={styles.carouselSection}>
         <h2 className={"text-white"}>Teen Patti Gold</h2>
         <div className={`carousel`}>
           <div className={`carousel-inner`}>
             {carouselItems.map((item, index) => (
               <div
-                className={`carousel-item ${
-                  index === currentIndex ? "active" : ""
-                }`}
+                className={`carousel-item ${index === currentIndex ? "active" : ""}`}
                 key={index}
               >
                 <a href="https://www.earntp.com/m/jny6cm?f=w&p=wa&l=en&tp=m74">
-                  <img
+                  <Image
                     src={item.src}
                     alt={item.alt}
                     className="image-fluid"
-                    style={{ width: "100%", height: "auto" }} // Ensure the image scales correctly
+                    width={600} // Specify width for optimization
+                    height={400} // Specify height for optimization
                   />
                 </a>
                 <div className="carousel-caption d-none d-md-block">
@@ -145,10 +107,7 @@ export default function Home() {
             type="button"
             onClick={prevSlide}
           >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
           </button>
           <button
@@ -156,10 +115,7 @@ export default function Home() {
             type="button"
             onClick={nextSlide}
           >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Next</span>
           </button>
         </div>
@@ -170,17 +126,13 @@ export default function Home() {
           <h2>About Teen Patti</h2>
           <div className="row">
             <div className="col-lg-6 p-2">
-            <a
-            href="https://www.earntp.com/gold/2z249v?f=w&p=wa&tp=gold1"
-            // className={styles.downloadButton}
-          >
-              <img
+              <Image
                 src="/asset/image1.jpg"
                 alt="image 1"
-                className="image-fluid m-2 w-100" // Use Bootstrap classes for responsiveness
-                style={{ width: "100%", height: "auto" }} // Ensure the image scales correctly
+                className="image-fluid m-2 w-100"
+                width={600} // Specify width for optimization
+                height={400} // Specify height for optimization
               />
-              </a>
             </div>
             <div className="col-lg-6 p-2">
               <p>
@@ -196,57 +148,59 @@ export default function Home() {
                 emergence of Teen Patti App.{" "}
                 <a
                   href="https://www.earntp.com/m/jny6cm?f=w&p=wa&l=en&tp=m74"
-                  // className={styles.downloadButton}
                 >
                   Download for Android
                 </a>
               </p>
             </div>
           </div>
+          <p>
+            In Teen Patty, loose and tight refers to the general tendency of
+            players to play cards or fold quickly after the first round. There
+            is no universally accepted odds or percentage of hands played, but
+            &quot;strong&quot; players will generally prefer to hold weak hands, while
+            &quot;weak&quot; players will bet more on hands, thus playing more competitive
+            hands.
+            <a
+              href="https://www.earntp.com/gold/2z249v?f=w&p=wa&tp=gold1"
+            >
+              Try it now
+            </a>
+          </p>
           <div className="row">
             <div className="col-lg-6 p-2">
-              <p>
-                In Teen Patty, loose and tight refers to the general tendency of
-                players to play cards or fold quickly after the first round.
-                There is no universally accepted odds or percentage of hands
-                played, but "strong" players will generally prefer to hold weak
-                hands, while "weak" players will bet more on hands, thus playing
-                more competitive hands.
-                <a
-                  href="https://www.earntp.com/gold/2z249v?f=w&p=wa&tp=gold1"
-                  // className={styles.downloadButton}
-                >
-                  Try it now
-                </a>
-              </p>
-            </div>
-            <div className="col-lg-6 p-2">
-            <a
-            href="https://www.earntp.com/m/jny6cm?f=w&p=wa&l=en&tp=m74"
-            // className={styles.downloadButton}
-          >
-              <img
+              <Image
                 src="/asset/image2.jpg"
                 alt="image 2"
-                className="image-fluid m-2 w-100" // Use Bootstrap classes for responsiveness
-                style={{ width: "100%", height: "auto" }} // Ensure the image scales correctly
+                className="image-fluid m-2 w-100"
+                width={600} // Specify width for optimization
+                height={400} // Specify height for optimization
               />
-              </a>
+            </div>
+            <div className="col-lg-6 p-2">
+              <p>
+                Usually a bet or starting price is placed on the table (pot).
+                This can be equal bets on all players or a larger bet from one
+                player (more parts than the rotation). Ante is a mistake bet
+                where each player puts an equal amount of money or chips into
+                the pot before the cards are dealt. It is usually a unit (the
+                value or minimum in play) or a small percentage such as half or
+                a quarter of the minimum bet. The ante that each player pays
+                ensures that the player who folds loses money (albeit slowly) on
+                each turn, thus encouraging each player to reach for a small
+                playing hand rather than an open hand form.
+              </p>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6 p-2">
-            <a
-            href="https://www.earntp.com/gold/2z249v?f=w&p=wa&tp=gold1"
-            // className={styles.downloadButton}
-          >
-              <img
+              <Image
                 src="/asset/image3.jpg"
                 alt="image 3"
                 className="image-fluid"
-                style={{ width: "100%", height: "auto" }} // Ensure the image scales correctly
+                width={600} // Specify width for optimization
+                height={400} // Specify height for optimization
               />
-              </a>
             </div>
             <div className="col-lg-6 p-2">
               <p>
@@ -301,7 +255,6 @@ export default function Home() {
             Click the button below to{" "}
             <a
               href="https://www.earntp.com/m/jny6cm?f=w&p=wa&l=en&tp=m74"
-              // className={styles.downloadButton}
             >
               download
             </a>{" "}
