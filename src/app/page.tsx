@@ -1,7 +1,6 @@
 "use client"; // Mark this component as a client component
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import styles from "./page.module.css"; // Adjust the import based on your structure
 import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
@@ -61,7 +60,7 @@ export default function Home() {
         <h1>
           Teen Patti Gold{" "}
           <a
-            href="https://teenpattigames.xyz/teen-patti-master-download/"
+            href="https://www.earntp.com/m/jny6cm?f=w&p=wa&l=en&tp=m74"
             className={styles.downloadButton}
           >
             Download
@@ -70,8 +69,8 @@ export default function Home() {
         <p>
           The ultimate{" "}
           <a
-            href="https://teenpattigames.xyz/teen-patti-master-download/"
-          // className={styles.downloadButton}
+            href="https://www.earntp.com/gold/2z249v?f=w&p=wa&tp=gold1"
+            // className={styles.downloadButton}
           >
             card game
           </a>{" "}
@@ -122,17 +121,17 @@ export default function Home() {
           <div className={`carousel-inner`}>
             {carouselItems.map((item, index) => (
               <div
-                className={`carousel-item ${index === currentIndex ? "active" : ""
-                  }`}
+                className={`carousel-item ${
+                  index === currentIndex ? "active" : ""
+                }`}
                 key={index}
               >
-                <a href="https://teenpattigames.xyz/teen-patti-master-download/">
-                  <Image
+                <a href="https://www.earntp.com/m/jny6cm?f=w&p=wa&l=en&tp=m74">
+                  <img
                     src={item.src}
                     alt={item.alt}
                     className="image-fluid"
-                    width={600}
-                    height={400}
+                    style={{ width: "100%", height: "auto" }} // Ensure the image scales correctly
                   />
                 </a>
                 <div className="carousel-caption d-none d-md-block">
@@ -169,78 +168,100 @@ export default function Home() {
       <main className={styles.main}>
         <section className={styles.infoSection}>
           <h2>About Teen Patti</h2>
-          <p>
-            Teen Patti is a popular Indian card game that brings together
-            friends and family for hours of fun and excitement. With stunning
-            graphics, smooth gameplay, and multiple game modes, Teen Patti
-            offers a thrilling experience for players of all skill levels. Teen
-            Patti Master isn’t just a game; it’s a modern take on the beloved
-            traditional card game. Welcome to the thrilling world of Teen Patti
-            Games, where traditional card gaming meets innovation and
-            excitement. Teen Patti, a beloved Indian card game, has taken a bold
-            step forward with the emergence of Teen Patti App.{" "}
+          <div className="row">
+            <div className="col-lg-6 p-2">
             <a
-              href="https://teenpattigames.xyz/teen-patti-master-download/"
+            href="https://www.earntp.com/gold/2z249v?f=w&p=wa&tp=gold1"
             // className={styles.downloadButton}
-            >
-              Download for Android
-            </a>
-          </p>
-          <p>
-            In Teen Patty, loose and tight refers to the general tendency of
-            players to play cards or fold quickly after the first round. There
-            is no universally accepted odds or percentage of hands played, but
-            "strong" players will generally prefer to hold weak hands, while
-            "weak" players will bet more on hands, thus playing more competitive
-            hands.
+          >
+              <img
+                src="/asset/image1.jpg"
+                alt="image 1"
+                className="image-fluid m-2 w-100" // Use Bootstrap classes for responsiveness
+                style={{ width: "100%", height: "auto" }} // Ensure the image scales correctly
+              />
+              </a>
+            </div>
+            <div className="col-lg-6 p-2">
+              <p>
+                Teen Patti is a popular Indian card game that brings together
+                friends and family for hours of fun and excitement. With
+                stunning graphics, smooth gameplay, and multiple game modes,
+                Teen Patti offers a thrilling experience for players of all
+                skill levels. Teen Patti Master isn’t just a game; it’s a modern
+                take on the beloved traditional card game. Welcome to the
+                thrilling world of Teen Patti Games, where traditional card
+                gaming meets innovation and excitement. Teen Patti, a beloved
+                Indian card game, has taken a bold step forward with the
+                emergence of Teen Patti App.{" "}
+                <a
+                  href="https://www.earntp.com/m/jny6cm?f=w&p=wa&l=en&tp=m74"
+                  // className={styles.downloadButton}
+                >
+                  Download for Android
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 p-2">
+              <p>
+                In Teen Patty, loose and tight refers to the general tendency of
+                players to play cards or fold quickly after the first round.
+                There is no universally accepted odds or percentage of hands
+                played, but "strong" players will generally prefer to hold weak
+                hands, while "weak" players will bet more on hands, thus playing
+                more competitive hands.
+                <a
+                  href="https://www.earntp.com/gold/2z249v?f=w&p=wa&tp=gold1"
+                  // className={styles.downloadButton}
+                >
+                  Try it now
+                </a>
+              </p>
+            </div>
+            <div className="col-lg-6 p-2">
             <a
-              href="https://teenpattigames.xyz/teen-patti-master-download/"
+            href="https://www.earntp.com/m/jny6cm?f=w&p=wa&l=en&tp=m74"
             // className={styles.downloadButton}
-            >
-              Try it now
-            </a>
-          </p>
-          <p>
-            Usually a bet or starting price is placed on the table (pot). This
-            can be equal bets on all players or a larger bet from one player
-            (more parts than the rotation). Ante is a mistake bet where each
-            player puts an equal amount of money or chips into the pot before
-            the cards are dealt. It is usually a unit (the value or minimum in
-            play) or a small percentage such as half or a quarter of the minimum
-            bet. The ante that each player pays ensures that the player who
-            folds loses money (albeit slowly) on each turn, thus encouraging
-            each player to reach for a small playing hand rather than an open
-            hand form.
-          </p>
-        </section>
-
-        <section className={styles.infoSection}>
-          <div className="col-lg-4">
-            <Image
-              src="/asset/image1.jpg"
-              alt="image 1"
-              className="image-fluid"
-              width={600}
-              height={400}
-            />
+          >
+              <img
+                src="/asset/image2.jpg"
+                alt="image 2"
+                className="image-fluid m-2 w-100" // Use Bootstrap classes for responsiveness
+                style={{ width: "100%", height: "auto" }} // Ensure the image scales correctly
+              />
+              </a>
+            </div>
           </div>
-          <div className="col-lg-4">
-            <Image
-              src="/asset/image2.jpg"
-              alt="image 2"
-              className="image-fluid"
-              width={600}
-              height={400}
-            />
-          </div>
-          <div className="col-lg-4">
-            <Image
-              src="/asset/image3.jpg"
-              alt="image 3"
-              className="image-fluid"
-              width={600}
-              height={400}
-            />
+          <div className="row">
+            <div className="col-lg-6 p-2">
+            <a
+            href="https://www.earntp.com/gold/2z249v?f=w&p=wa&tp=gold1"
+            // className={styles.downloadButton}
+          >
+              <img
+                src="/asset/image3.jpg"
+                alt="image 3"
+                className="image-fluid"
+                style={{ width: "100%", height: "auto" }} // Ensure the image scales correctly
+              />
+              </a>
+            </div>
+            <div className="col-lg-6 p-2">
+              <p>
+                Usually a bet or starting price is placed on the table (pot).
+                This can be equal bets on all players or a larger bet from one
+                player (more parts than the rotation). Ante is a mistake bet
+                where each player puts an equal amount of money or chips into
+                the pot before the cards are dealt. It is usually a unit (the
+                value or minimum in play) or a small percentage such as half or
+                a quarter of the minimum bet. The ante that each player pays
+                ensures that the player who folds loses money (albeit slowly) on
+                each turn, thus encouraging each player to reach for a small
+                playing hand rather than an open hand form.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -279,15 +300,15 @@ export default function Home() {
           <p>
             Click the button below to{" "}
             <a
-              href="https://teenpattigames.xyz/teen-patti-master-download/"
-            // className={styles.downloadButton}
+              href="https://www.earntp.com/m/jny6cm?f=w&p=wa&l=en&tp=m74"
+              // className={styles.downloadButton}
             >
               download
             </a>{" "}
             Teen Patti and start playing today!
           </p>
           <a
-            href="https://teenpattigames.xyz/teen-patti-master-download/"
+            href="https://www.earntp.com/gold/2z249v?f=w&p=wa&tp=gold1"
             className={styles.downloadButton}
           >
             Download for Android
@@ -298,7 +319,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <h1>
           <a
-            href="https://teenpattigames.xyz/teen-patti-master-download/"
+            href="https://www.earntp.com/m/jny6cm?f=w&p=wa&l=en&tp=m74"
             className="text-white text-decoration-none"
           >
             Teen Patti Gold
