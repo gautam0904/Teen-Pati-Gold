@@ -92,7 +92,8 @@ export default function Home() {
                     src={item.src}
                     alt={item.alt}
                     className="image-fluid"
-                    width={600} // Specify width for optimization // Specify height for optimization
+                    width={600} // Specify width for optimization
+                    hight={400}// Specify height for optimization
                   />
                 </a>
                 <div className="carousel-caption d-none d-md-block">
