@@ -34,10 +34,6 @@
   transform: scale(1.02);
 }
 
-.infoSection{
-  padding : 5px;
-}
-
 .downloadButton {
   display: inline-block;
   margin: 10px 5px;
