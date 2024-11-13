@@ -91,7 +91,7 @@ export default function Home() {
                   <Image
                     src={item.src}
                     alt={item.alt}
-                    className="image-fluid"
+                    className="img-fluid"
                     width={600} // Specify width for optimization
                     height={400} // Specify height for optimization
                   />
@@ -148,7 +148,7 @@ export default function Home() {
               <Image
                 src="/asset/image1.jpg"
                 alt="image 1"
-                className="image-fluid m-2 w-100 d-flex align-items-center justify-content-center"
+                className="img-fluid m-2 w-100 d-flex align-items-center justify-content-center"
                 width={150} // Specify width for optimization
                 // Specify height for optimization
               />
@@ -160,7 +160,7 @@ export default function Home() {
               <Image
                 src="/asset/image2.jpg"
                 alt="image 2"
-                className="image-fluid m-2 w-100 d-flex align-items-center justify-content-center"
+                className="img-fluid m-2 w-100 d-flex align-items-center justify-content-center"
                 width={300} // Specify width for optimization
               />
             </div>
@@ -200,7 +200,7 @@ export default function Home() {
               <Image
                 src="/asset/image3.jpg"
                 alt="image 3"
-                className="image-fluid d-flex align-items-center justify-content-center"
+                className="img-fluid d-flex align-items-center justify-content-center"
                 width={350} // Specify width for optimization// Specify height for optimization
               />
             </div>
