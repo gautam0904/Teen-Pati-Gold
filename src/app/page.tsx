@@ -197,7 +197,7 @@ export default function Home() {
             </div>
               <div className="col-lg-6 p-2">
               <Image
-                src="/asset/image3.jpg "
+                src="/asset/image3.jpg"
                 alt="image 3"
                 className="image-fluid d-flex align-items-center justify-content-center"
                 width={300} // Specify width for optimization// Specify height for optimization
