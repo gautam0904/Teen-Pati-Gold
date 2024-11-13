@@ -129,8 +129,8 @@ export default function Home() {
                 src="/asset/image1.jpg"
                 alt="image 1"
                 className="image-fluid m-2 w-100"
-                width={600} // Specify width for optimization
-                height={400} // Specify height for optimization
+                width={300} // Specify width for optimization
+                height={200} // Specify height for optimization
               />
             </div>
             <div className="col-lg-6 p-2">
@@ -172,8 +172,8 @@ export default function Home() {
                 src="/asset/image2.jpg"
                 alt="image 2"
                 className="image-fluid m-2 w-100"
-                width={600} // Specify width for optimization
-                height={400} // Specify height for optimization
+                width={300} // Specify width for optimization
+                height={200} // Specify height for optimization
               />
             </div>
             <div className="col-lg-6 p-2">
@@ -197,8 +197,8 @@ export default function Home() {
                 src="/asset/image3.jpg"
                 alt="image 3"
                 className="image-fluid"
-                width={600} // Specify width for optimization
-                height={400} // Specify height for optimization
+                width={300} // Specify width for optimization
+                height={200} // Specify height for optimization
               />
             </div>
             <div className="col-lg-6 p-2">
