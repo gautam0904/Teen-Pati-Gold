@@ -130,7 +130,7 @@ export default function Home() {
                 alt="image 1"
                 className="image-fluid m-2 w-100"
                 width={300} // Specify width for optimization
-                height={200} // Specify height for optimization
+                // Specify height for optimization
               />
             </div>
             <div className="col-lg-6 p-2">
@@ -139,7 +139,7 @@ export default function Home() {
                 friends and family for hours of fun and excitement. With
                 stunning graphics, smooth gameplay, and multiple game modes,
                 Teen Patti offers a thrilling experience for players of all
-                skill levels. Teen Patti Master isn’t just a game; it’s a modern
+                skill levels. Teen Patti Gold isn’t just a game; it’s a modern
                 take on the beloved traditional card game. Welcome to the
                 thrilling world of Teen Patti Games, where traditional card
                 gaming meets innovation and excitement. Teen Patti, a beloved
