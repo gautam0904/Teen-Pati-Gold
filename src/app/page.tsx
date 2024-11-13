@@ -173,7 +173,6 @@ export default function Home() {
                 alt="image 2"
                 className="image-fluid m-2 w-100"
                 width={300} // Specify width for optimization
-                height={200} // Specify height for optimization
               />
             </div>
             <div className="col-lg-6 p-2">
@@ -192,15 +191,7 @@ export default function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 p-2">
-              <Image
-                src="/asset/image3.jpg"
-                alt="image 3"
-                className="image-fluid"
-                width={300} // Specify width for optimization
-                height={200} // Specify height for optimization
-              />
-            </div>
+          
             <div className="col-lg-6 p-2">
               <p>
                 Usually a bet or starting price is placed on the table (pot).
@@ -214,6 +205,14 @@ export default function Home() {
                 each turn, thus encouraging each player to reach for a small
                 playing hand rather than an open hand form.
               </p>
+            </div>
+              <div className="col-lg-6 p-2">
+              <Image
+                src="/asset/image3.jpg"
+                alt="image 3"
+                className="image-fluid"
+                width={300} // Specify width for optimization// Specify height for optimization
+              />
             </div>
           </div>
         </section>
